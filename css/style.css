@@ -1,0 +1,17 @@
+* {
+    margin:0;
+    border:0;
+    padding:0;
+    text-decoration: none;
+}
+
+
+button {
+    border: black 2px solid;
+    padding: 0.5rem;
+}
+
+input {
+    border: black 2px solid;
+    padding: 0.25rem 1rem;
+}
