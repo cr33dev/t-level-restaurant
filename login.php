@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,17 +16,21 @@ if (isset($_SESSION['error'])){
 }
 ?>
 
-<div class="container">
+<div class="form-container">
     <form action="verify_login.php" method="post">
-        <label for="#email">Email: </label>
-        <input type="email" required id="email" placeholder="example@email.com">
+        <p class="email">Email:</p>
+        <input type="email" required id="email" name="email" placeholder="example@email.com">
 
-        <label for="#pass">Password: </label>
-        <input type="password" required id="pass" placeholder=".......">
-        <button type="submit">Log In</button>
+        <br>
+
+        <p class="pass">Password:</p>
+        <input type="password" required id="pass" name="pass" placeholder="..........">
+
+        <br>
+
+        <button type="submit" class="login-button">Log In</button>
     </form>
+    <a href="https://bit.ly/nolinkneeded" target="_blank">Forgot Password</a>
 </div>
-
-<a href="https://bit.ly/nolinkneeded" target="_blank">Forgot Password</a>
 </body>
 </html>

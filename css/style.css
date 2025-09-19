@@ -3,15 +3,37 @@
     border:0;
     padding:0;
     text-decoration: none;
+    font-family: "Comic Sans MS", Arial, serif; /* <- placeholder*/
 }
-
-
+.email, .pass {
+    margin-bottom: 3px;
+}
 button {
     border: black 2px solid;
     padding: 0.5rem;
 }
-
 input {
     border: black 2px solid;
     padding: 0.25rem 1rem;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000000;
+}
+.login-button {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+input #email {
+    margin-left: 10px;
 }

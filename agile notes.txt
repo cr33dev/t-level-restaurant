@@ -1,0 +1,16 @@
+sprint 1 -
+
+we debated to make the login form and to add the css for the site so that it looks good, we also decided to start to work on the verification of the login as the other group elected to do the homepage and the registration to the site as well as the sql interaction between the register and database
+
+
+make the login form page and start to add the css for it. as well as starting to work on the login verification.
+
+sprint 2 -
+
+we now elected to start the sql table and database as we now have agreed to use a specific configuration. then we used php to get the login details of the user by email so that we can later check the hashed password against the users entered password on the login page against it.
+
+get sql to work. make login work.
+
+sprint - 3
+
+to be decided
